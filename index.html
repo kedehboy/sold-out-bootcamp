@@ -23,6 +23,26 @@
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/theme.css" />
   </head>
+  <style>
+    .testimony {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .costly {
+      margin-right: 50px;
+    }
+    @media screen and (max-width: 600px) {
+      .testimony {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .costly {
+        margin-right: 0px;
+      }
+    }
+  </style>
 
   <body>
     <header class="header">
@@ -60,9 +80,9 @@
                 <!-- A free Bootstrap 5 template for developers and programmers who
                 want to self-publish books. Download now and start selling your
                 book right away! -->
-                Join business owners like you for 90 days and focus on building
-                a customers who trust your brand enough to buy from you and
-                refer their friends!
+                Join business owners like you for 90 days and Focus on finding
+                and nurturing customers who trust your brand enough to buy from
+                you and refer their friends!
               </div>
               <!--//subheading-->
 
@@ -368,14 +388,13 @@
             </div>
             <!--//inner-->
           </div>
-          <div
-            style="display: flex; justify-content: center; align-items: center"
-          >
+          <div class="testimony">
             <div>
               <img
                 src="./assets/images/p1.jpeg"
                 alt=""
-                style="width: 150px; height: 150px; margin-right: 50px"
+                style="width: 150px; height: 150px"
+                class="costly"
               />
               <p>Before OneBrand Africa</p>
             </div>
